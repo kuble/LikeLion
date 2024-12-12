@@ -131,26 +131,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 552739994}
-  - component: {fileID: 552739993}
+  - component: {fileID: 552739995}
+  - component: {fileID: 552739996}
   m_Layer: 0
-  m_Name: BinaryTreeObject
+  m_Name: SortObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &552739993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 552739992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c6b4660e8c67c441ad5f065e6e9b46f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &552739994
 Transform:
   m_ObjectHideFlags: 0
@@ -166,6 +155,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &552739995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552739992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d0787e6d701ba24e90fa193b58f805a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 0
+  numbers: 060000000200000004000000030000000500000001000000080000000900000007000000
+  rockBuilder: {fileID: 552739996}
+--- !u!114 &552739996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552739992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d15d2a8c9c036f4ab653026f3161ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rockPrefab: {fileID: 496672175811627837, guid: 181d6c59ae69da9489de8cc70a337332, type: 3}
+  startPosition: {x: 0, y: 0, z: 0}
+  offset: {x: 1, y: 0, z: 0}
+  defaultMaterial: {fileID: 2100000, guid: bb737ddf77f83fd4dad54c6b6150cdc5, type: 2}
+  pivotMaterial: {fileID: 0}
+  leftMaterial: {fileID: 0}
+  rightMaterial: {fileID: 0}
+  swapMaterial: {fileID: 0}
+  rocks:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,7 +381,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 3.97, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
