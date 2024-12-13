@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Assets\04. Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\02. Scripts\01. DataStructure\01. Array\DataStructComponent.cs" />
+    <Compile Include="Assets\02. Scripts\03. Unity\Part.cs" />
     <Compile Include="Assets\04. Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\02. Scripts\02. Algorithm\SortManager.cs" />
     <Compile Include="Assets\02. Scripts\01. DataStructure\05. Queue\PriorityQueue.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Assets\04. Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\02. Scripts\01. DataStructure\05. Queue\CustomQueue.cs" />
     <Compile Include="Assets\02. Scripts\01. DataStructure\04. Linq\GameManager.cs" />
+    <Compile Include="Assets\02. Scripts\03. Unity\Cannon.cs" />
     <Compile Include="Assets\02. Scripts\01. DataStructure\04. Linq\RaceButton.cs" />
     <Compile Include="Assets\04. Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\04. Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
@@ -81,8 +83,10 @@
     <Compile Include="Assets\04. Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\02. Scripts\01. DataStructure\05. Queue\HeapVisualizer.cs" />
     <Compile Include="Assets\02. Scripts\01. DataStructure\05. Queue\HeapNode.cs" />
+    <Compile Include="Assets\02. Scripts\03. Unity\MaterialColorChange.cs" />
     <Compile Include="Assets\04. Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\02. Scripts\01. DataStructure\02. LinkedList\CustomLinkedList.cs" />
+    <Compile Include="Assets\02. Scripts\03. Unity\Monster.cs" />
     <Compile Include="Assets\04. Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\04. Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\04. Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
@@ -94,10 +98,12 @@
     <Compile Include="Assets\02. Scripts\02. Algorithm\RockBuilder.cs" />
     <Compile Include="Assets\04. Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\04. Assets\Crystals Mega Pack\Shaders\Specials\Fragmented\CrystalMaskController.cs" />
+    <Compile Include="Assets\02. Scripts\03. Unity\Projectile.cs" />
     <Compile Include="Assets\02. Scripts\01. DataStructure\06. TreeAndGraph\AVLTreeVisualizer.cs" />
     <Compile Include="Assets\02. Scripts\01. DataStructure\02. LinkedList\DefaultLinkedList.cs" />
     <Compile Include="Assets\04. Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\02. Scripts\01. DataStructure\03.Stack\DefaultStack.cs" />
+    <Compile Include="Assets\02. Scripts\03. Unity\MonsterSpawner.cs" />
     <Compile Include="Assets\04. Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\04. Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\02. Scripts\01. DataStructure\06. TreeAndGraph\Graph.cs" />
